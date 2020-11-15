@@ -85,9 +85,13 @@
 			<tr>
 				<td><?php echo $no++; ?></td>
 				<td><?php echo $mhs['nim']; ?></td>
+				<td> </td>
 				<td><?php echo $mhs['nama']; ?></td>
+				<td> </td>
 				<td><?php echo $mhs['alamat']; ?></td>
+				<td> </td>
 				<td><?php echo $mhs['no_hp']; ?></td>
+				<td> </td>
 				<td>
 					<a href="data_mahasiswa.php?id=<?php echo $mhs['nim']; ?>">Edit</a> | 
 					<a href="hapus_mahasiswa.php?id=<?php echo $mhs['nim']; ?>">Hapus</a>
